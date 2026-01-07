@@ -1,0 +1,97 @@
+.parent{
+  display: flex;
+  width: 100%;
+  background-color: #111;
+  padding: 30px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.card{
+  height: 310px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 2px;
+}
+.top button{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #8b8b8b;
+  border-radius: 5px;
+  padding: 4px 8px;
+  font-size: 11px;
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #dadada;
+  padding-top: 15px;
+}
+.center h3{
+  font-size: 18px;
+  font-weight: 500;
+}
+.center h3 span{
+  font-size: 10px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+.center h2{
+  font-size: 25px;
+}
+.center .tag{
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+.center .tag h4{
+  font-size: 12px;
+  background-color: #dadada;
+  color: #111;
+  font-weight: 500;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+.bottom button{
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.bottom div h3{
+  font-weight: 550;
+}
+.bottom div p{
+  color: #8b8b8b;
+}
+.center h2, h3{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+}
+.center .tag h4{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 10px;
+}
+body{
+  margin: 0px;
+}
